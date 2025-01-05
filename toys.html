@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHISHIBAGS - Toys Collection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">SHISHIBAGS</div>
+            <ul class="nav-menu">
+                <li><a href="bags.html" class="nav-link">Bags</a></li>
+                <li><a href="clothes.html" class="nav-link">Clothes</a></li>
+                <li><a href="#toys" class="nav-link">Toys</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="#cart" class="nav-link"><i class="fas fa-shopping-bag"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Playful. Educational.<br>Sustainable.</h1>
+        <p>Discover our collection of eco-friendly toys that inspire creativity</p>
+        <button class="cta-button">Explore Collection</button>
+    </section>
+
+    <section class="products" id="toys">
+        <div class="category-tabs">
+            <button class="category-tab active">All Toys</button>
+            <button class="category-tab">Educational</button>
+            <button class="category-tab">Plush</button>
+            <button class="category-tab">Interactive</button>
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="/api/placeholder/400/400" alt="Educational Blocks" class="product-image">
+                <div class="product-info">
+                    <h3>Wooden Building Blocks</h3>
+                    <p>$49.99</p>
+                    <span class="product-category">Educational</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="/api/placeholder/400/400" alt="Plush Bear" class="product-image">
+                <div class="product-info">
+                    <h3>Organic Cotton Bear</h3>
+                    <p>$39.99</p>
+                    <span class="product-category">Plush</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="/api/placeholder/400/400" alt="Interactive Puzzle" class="product-image">
+                <div class="product-info">
+                    <h3>Interactive Puzzle Set</h3>
+                    <p>$29.99</p>
+                    <span class="product-category">Interactive</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="/api/placeholder/400/400" alt="Rainbow Stacker" class="product-image">
+                <div class="product-info">
+                    <h3>Wooden Rainbow Stacker</h3>
+                    <p>$34.99</p>
+                    <span class="product-category">Educational</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="/api/placeholder/400/400" alt="Musical Toy" class="product-image">
+                <div class="product-info">
+                    <h3>Musical Adventure Set</h3>
+                    <p>$44.99</p>
+                    <span class="product-category">Interactive</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="/api/placeholder/400/400" alt="Plush Bunny" class="product-image">
+                <div class="product-info">
+                    <h3>Soft Bunny Friend</h3>
+                    <p>$35.99</p>
+                    <span class="product-category">Plush</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-leaf fa-2x"></i>
+                </div>
+                <div class="feature-content">
+                    <h3>Eco-Friendly Materials</h3>
+                    <p>All our toys are made from sustainable materials, safe for children and the environment.</p>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt fa-2x"></i>
+                </div>
+                <div class="feature-content">
+                    <h3>Safety First</h3>
+                    <p>Rigorous testing ensures all our toys meet the highest safety standards.</p>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-brain fa-2x"></i>
+                </div>
+                <div class="feature-content">
+                    <h3>Educational Value</h3>
+                    <p>Designed to support development and learning through play.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .features {
+            padding: 4rem 2rem;
+            background: #f8f8f8;
+        }
+
+        .feature-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 0 1rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            margin-bottom: 1.5rem;
+            color: #000;
+        }
+
+        .feature-content h3 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .feature-content p {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Join Our Playful Community</h2>
+            <p>Subscribe for exclusive offers and parenting tips</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>SHISHIBAGS</h3>
+                <p>Modern luxury essentials</p>
+            </div>
+            <div class="footer-section">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="bags.html">Bags</a></li>
+                    <li><a href="clothes.html">Clothes</a></li>
+                    <li><a href="#toys">Toys</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#sustainability">Sustainability</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Shishibags. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
